@@ -44,5 +44,31 @@ gettype($mobileUserAgent); // string
   Returns:
   - `string`
   
+## Development
+
+Clone
+
+```bash
+$ git clone https://github.com/mikeevstropov/user-agent
+```
+
+Go to project
+
+```bash
+$ cd user-agent
+```
+
+Install dependencies
+
+```bash
+$ composer install
+```
+
+Run the tests
+
+```bash
+$ composer test
+```
+  
 ## License
 MIT
