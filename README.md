@@ -43,3 +43,6 @@ gettype($mobileUserAgent); // string
   
   Returns:
   - `string`
+  
+## License
+MIT
