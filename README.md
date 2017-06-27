@@ -18,7 +18,7 @@ $ composer require mikeevstropov/user-agent
 use Mikeevstropov\UserAgent\UserAgent;
 
 // Getting of a desktop user agent
-$desktopUserAgent = UserAgent::getMobileRand();
+$desktopUserAgent = UserAgent::getDesktopRand();
 
 gettype($desktopUserAgent); // string
 
